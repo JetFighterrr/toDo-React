@@ -2,10 +2,13 @@
   "name": "todo_react",
   "version": "0.1.0",
   "private": true,
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "uniqid": "^5.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
