@@ -41,7 +41,6 @@ class App extends Component {
     }
   }
 
-
   changeInput(value){
     this.setState({ inputText: value});
   }
