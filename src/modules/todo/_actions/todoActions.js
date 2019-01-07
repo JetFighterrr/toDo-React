@@ -13,3 +13,19 @@ export function lineDelete(idNumber) {
       payload: idNumber
     });
 }
+
+export function lineEdit(idNumber) {
+  return dispatch =>
+    dispatch({
+      type: 'TODO_EDIT',
+      payload: idNumber
+    });
+}
+
+export function inputUpdate(entry) {
+  return dispatch =>
+    dispatch({
+      type: 'ENTRY_UPDATE',
+      payload: entry
+    });
+}
